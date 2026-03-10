@@ -2,56 +2,53 @@
 
 import React from 'react';
 import { Dumbbell, Mail, Phone, MapPin, Instagram, Twitter, Facebook, Youtube } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <footer id="contact" className="bg-[#0E0E0E] pt-24 pb-12 px-6 border-t border-[#2A2A2A]">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-        {/* Brand Column */}
         <div className="space-y-6">
-          <div className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2">
             <div className="bg-[#FF6A00] p-1.5 rounded-sm">
               <Dumbbell className="w-6 h-6 text-white" />
             </div>
             <span className="font-heading text-2xl font-bold tracking-tight uppercase">
               Motive<span className="text-[#FF6A00]">Muscle</span>
             </span>
-          </div>
+          </Link>
           <p className="text-[#7A7A7A] text-sm leading-relaxed font-body">
-            MotiveMuscle is a premium fitness hub dedicated to helping you achieve your physical and mental goals. 
-            Our expert trainers and modern equipment provide the best environment for your transformation.
+            MotiveMuscle is a premier fitness destination dedicated to empowering individuals through expert coaching, 
+            state-of-the-art equipment, and a supportive community. Transform your life with us today.
           </p>
           <div className="flex items-center gap-4">
-            <a href="#" className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors">
-              <Instagram className="w-5 h-5" />
-            </a>
-            <a href="#" className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors">
-              <Twitter className="w-5 h-5" />
-            </a>
-            <a href="#" className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors">
-              <Facebook className="w-5 h-5" />
-            </a>
-            <a href="#" className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors">
-              <Youtube className="w-5 h-5" />
-            </a>
+            <a href="#" className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors"><Instagram className="w-5 h-5" /></a>
+            <a href="#" className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors"><Twitter className="w-5 h-5" /></a>
+            <a href="#" className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors"><Facebook className="w-5 h-5" /></a>
+            <a href="#" className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors"><Youtube className="w-5 h-5" /></a>
           </div>
         </div>
 
-        {/* Quick Links */}
         <div>
           <h4 className="font-heading text-xl font-bold uppercase mb-6">Quick Links</h4>
           <ul className="space-y-4">
-            {['Home', 'About Us', 'Classes', 'Trainers', 'Pricing', 'Contact'].map((link) => (
-              <li key={link}>
-                <a href="#" className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors text-sm font-medium uppercase tracking-wider">
-                  {link}
-                </a>
+            {[
+              { name: 'Home', path: '/' },
+              { name: 'About Us', path: '/about' },
+              { name: 'Classes', path: '/classes' },
+              { name: 'Trainers', path: '/trainers' },
+              { name: 'Pricing', path: '/pricing' },
+              { name: 'Contact', path: '/contact' }
+            ].map((link) => (
+              <li key={link.name}>
+                <Link to={link.path} className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors text-sm font-medium uppercase tracking-wider">
+                  {link.name}
+                </Link>
               </li>
             ))}
           </ul>
         </div>
 
-        {/* Contact Info */}
         <div>
           <h4 className="font-heading text-xl font-bold uppercase mb-6">Contact Info</h4>
           <ul className="space-y-6">
@@ -72,7 +69,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Opening Hours */}
         <div>
           <h4 className="font-heading text-xl font-bold uppercase mb-6">Opening Hours</h4>
           <ul className="space-y-4">
@@ -97,8 +93,8 @@ const Footer = () => {
           © 2024 MotiveMuscle Gym. All Rights Reserved.
         </p>
         <div className="flex items-center gap-8">
-          <a href="#" className="text-[#7A7A7A] hover:text-white text-xs uppercase tracking-widest transition-colors">Privacy Policy</a>
-          <a href="#" className="text-[#7A7A7A] hover:text-white text-xs uppercase tracking-widest transition-colors">Terms of Service</a>
+          <Link to="/privacy" className="text-[#7A7A7A] hover:text-white text-xs uppercase tracking-widest transition-colors">Privacy Policy</Link>
+          <Link to="/terms" className="text-[#7A7A7A] hover:text-white text-xs uppercase tracking-widest transition-colors">Terms of Service</Link>
         </div>
       </div>
     </footer>
