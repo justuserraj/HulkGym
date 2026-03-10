@@ -13,7 +13,7 @@ import Pricing from '@/components/sections/Pricing';
 import Map from '@/components/sections/Map';
 import CTA from '@/components/sections/CTA';
 import Footer from '@/components/layout/Footer';
-import { MadeWithDyad } from "@/components/made-with-dyad";
+import { MadeWithVizoxStudio } from "@/components/made-with-dyad";
 
 const Index = () => {
   return (
@@ -32,7 +32,7 @@ const Index = () => {
         <CTA />
       </main>
       <Footer />
-      <MadeWithVizoxstudio />
+      <MadeWithVizoxStudio />
     </div>
   );
 };
