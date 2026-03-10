@@ -32,7 +32,7 @@ const Index = () => {
         <CTA />
       </main>
       <Footer />
-      <MadeWithDyad />
+      <MadeWithVizoxstudio />
     </div>
   );
 };
