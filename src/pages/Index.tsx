@@ -1,16 +1,33 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+"use client";
 
+import React from 'react';
+import Header from '@/components/layout/Header';
+import Hero from '@/components/sections/Hero';
+import Features from '@/components/sections/Features';
+import About from '@/components/sections/About';
+import Stats from '@/components/sections/Stats';
+import Programs from '@/components/sections/Programs';
+import Trainers from '@/components/sections/Trainers';
+import Pricing from '@/components/sections/Pricing';
+import CTA from '@/components/sections/CTA';
+import Footer from '@/components/layout/Footer';
 import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">
-          Start building your amazing project here!
-        </p>
-      </div>
+    <div className="min-h-screen bg-[#0E0E0E] text-white selection:bg-[#FF6A00] selection:text-white">
+      <Header />
+      <main>
+        <Hero />
+        <Features />
+        <About />
+        <Stats />
+        <Programs />
+        <Trainers />
+        <Pricing />
+        <CTA />
+      </main>
+      <Footer />
       <MadeWithDyad />
     </div>
   );
