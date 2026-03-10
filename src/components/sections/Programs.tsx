@@ -20,7 +20,7 @@ const programs = [
   },
   {
     title: "Fitness Class",
-    image: "https://images.unsplash.com/photo-1518611012118-2961720eaa2e?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=2070&auto=format&fit=crop",
     path: "/classes"
   },
   {
