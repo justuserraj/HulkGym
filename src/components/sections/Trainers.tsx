@@ -15,7 +15,7 @@ const trainers = [
     name: "Sarah Jenkins",
     role: "Cardio Specialist",
     bio: "Expert in HIIT and endurance training, helping members reach peak cardiovascular performance.",
-    image: "https://images.unsplash.com/photo-1548690312-e3b507d17a47?q=80&w=1974&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=1974&auto=format&fit=crop"
   },
   {
     name: "Marcus Thorne",

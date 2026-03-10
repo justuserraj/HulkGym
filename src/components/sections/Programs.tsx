@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 const programs = [
   {
     title: "Body Building",
-    image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1581009146145-b5ef03a7403f?q=80&w=2070&auto=format&fit=crop",
     path: "/classes"
   },
   {
@@ -20,12 +20,12 @@ const programs = [
   },
   {
     title: "Fitness Class",
-    image: "https://images.unsplash.com/photo-1518611012118-2961720eaa2e?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1571902251103-d87389d79bb4?q=80&w=2070&auto=format&fit=crop",
     path: "/classes"
   },
   {
     title: "Group Training",
-    image: "https://images.unsplash.com/photo-1571902251103-d87389d79bb4?q=80&w=1974&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=2069&auto=format&fit=crop",
     path: "/classes"
   }
 ];
