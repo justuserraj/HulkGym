@@ -14,7 +14,7 @@ const Terms = () => {
         </div>
         <div className="max-w-4xl mx-auto py-24 px-6 font-body text-[#B3B3B3] space-y-8">
           <h2 className="text-2xl font-heading font-bold text-white uppercase">1. Terms</h2>
-          <p>By accessing the website at MotiveMuscle, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws.</p>
+          <p>By accessing the website at HulkGym, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws.</p>
           <h2 className="text-2xl font-heading font-bold text-white uppercase">2. Use License</h2>
           <p>Permission is granted to temporarily download one copy of the materials (information or software) on HulkGym's website for personal, non-commercial transitory viewing only.</p>
         </div>
