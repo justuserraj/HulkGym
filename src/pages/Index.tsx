@@ -9,7 +9,6 @@ import Stats from '@/components/sections/Stats';
 import Programs from '@/components/sections/Programs';
 import Trainers from '@/components/sections/Trainers';
 import Testimonials from '@/components/sections/Testimonials';
-import Pricing from '@/components/sections/Pricing';
 import Map from '@/components/sections/Map';
 import CTA from '@/components/sections/CTA';
 import Footer from '@/components/layout/Footer';
@@ -27,7 +26,6 @@ const Index = () => {
         <Programs />
         <Trainers />
         <Testimonials />
-        <Pricing />
         <Map />
         <CTA />
       </main>

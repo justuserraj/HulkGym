@@ -10,16 +10,16 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
         <div className="space-y-6">
           <Link to="/" className="flex items-center gap-2">
-            <div className="bg-[#FF6A00] p-1.5 rounded-sm">
+            <div className="bg-[#FF6A00] p-1.5 rounded-sm shadow-lg">
               <Dumbbell className="w-6 h-6 text-white" />
             </div>
             <span className="font-heading text-2xl font-bold tracking-tight uppercase">
-              Motive<span className="text-[#FF6A00]">Muscle</span>
+              Hulk<span className="text-[#FF6A00]">Gym</span>
             </span>
           </Link>
           <p className="text-[#7A7A7A] text-sm leading-relaxed font-body">
-            MotiveMuscle is a premier fitness destination dedicated to empowering individuals through expert coaching, 
-            state-of-the-art equipment, and a supportive community. Transform your life with us today.
+            Hulk Gym is the premier fitness destination in Begusarai, dedicated to empowering individuals through expert coaching, 
+            state-of-the-art equipment, and a supportive community.
           </p>
           <div className="flex items-center gap-4">
             <a href="#" className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors"><Instagram className="w-5 h-5" /></a>
@@ -37,7 +37,7 @@ const Footer = () => {
               { name: 'About Us', path: '/about' },
               { name: 'Classes', path: '/classes' },
               { name: 'Trainers', path: '/trainers' },
-              { name: 'Pricing', path: '/pricing' },
+              { name: 'Membership', path: '/membership' },
               { name: 'Contact', path: '/contact' }
             ].map((link) => (
               <li key={link.name}>
@@ -55,16 +55,16 @@ const Footer = () => {
             <li className="flex items-start gap-4">
               <MapPin className="w-5 h-5 text-[#FF6A00] shrink-0" />
               <span className="text-[#7A7A7A] text-sm leading-relaxed">
-                123 Fitness Avenue, Muscle District, <br /> New York, NY 10001
+                Singhaul Dih, Begusarai, <br /> Bihar 851134, India
               </span>
             </li>
             <li className="flex items-center gap-4">
               <Phone className="w-5 h-5 text-[#FF6A00] shrink-0" />
-              <span className="text-[#7A7A7A] text-sm">+1 (555) 123-4567</span>
+              <span className="text-[#7A7A7A] text-sm">093417 67026</span>
             </li>
             <li className="flex items-center gap-4">
               <Mail className="w-5 h-5 text-[#FF6A00] shrink-0" />
-              <span className="text-[#7A7A7A] text-sm">info@motivemuscle.com</span>
+              <span className="text-[#7A7A7A] text-sm">info@hulkgym.com</span>
             </li>
           </ul>
         </div>
@@ -90,7 +90,7 @@ const Footer = () => {
 
       <div className="max-w-7xl mx-auto pt-12 border-t border-[#2A2A2A] flex flex-col md:flex-row items-center justify-between gap-6">
         <p className="text-[#7A7A7A] text-xs uppercase tracking-widest">
-          © 2024 MotiveMuscle Gym. All Rights Reserved.
+          © 2024 Hulk Gym Begusarai. All Rights Reserved.
         </p>
         <div className="flex items-center gap-8">
           <Link to="/privacy" className="text-[#7A7A7A] hover:text-white text-xs uppercase tracking-widest transition-colors">Privacy Policy</Link>

@@ -3,10 +3,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const CTA = () => {
   return (
-    <section className="relative py-24 px-6 overflow-hidden">
+    <section className="relative py-32 px-6 overflow-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 z-0"
@@ -25,7 +26,7 @@ const CTA = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="font-heading text-4xl md:text-6xl font-bold uppercase text-white mb-6 leading-tight"
+          className="font-heading text-5xl md:text-7xl font-bold uppercase text-white mb-8 leading-tight"
         >
           Start Your Fitness <br /> Journey Today
         </motion.h2>
@@ -34,9 +35,9 @@ const CTA = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
-          className="text-white/90 text-lg md:text-xl mb-10 max-w-2xl mx-auto font-body"
+          className="text-white/90 text-xl md:text-2xl mb-12 max-w-2xl mx-auto font-body leading-relaxed"
         >
-          Join MotiveMuscle and transform your body with our expert trainers and world-class facilities. 
+          Join Hulk Gym and transform your body with our expert trainers and world-class facilities in Begusarai. 
           Your best self is waiting.
         </motion.p>
         <motion.div
@@ -45,8 +46,8 @@ const CTA = () => {
           viewport={{ once: true }}
           transition={{ delay: 0.4 }}
         >
-          <Button className="bg-white text-[#FF6A00] hover:bg-white/90 font-bold uppercase tracking-wider px-12 py-8 rounded-sm text-xl shadow-2xl">
-            Join Now
+          <Button asChild className="bg-white text-[#FF6A00] hover:bg-white/90 font-bold uppercase tracking-wider px-12 py-9 rounded-sm text-2xl shadow-2xl transition-all hover:scale-105">
+            <Link to="/contact">Join Hulk Gym Today</Link>
           </Button>
         </motion.div>
       </div>

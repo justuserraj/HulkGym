@@ -21,10 +21,10 @@ const Header = () => {
 
   const navLinks = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
+    { name: 'About Us', href: '/about' },
     { name: 'Classes', href: '/classes' },
     { name: 'Trainers', href: '/trainers' },
-    { name: 'Pricing', href: '/pricing' },
+    { name: 'Membership', href: '/membership' },
     { name: 'Contact', href: '/contact' },
   ];
 
@@ -41,7 +41,7 @@ const Header = () => {
             <Dumbbell className="w-6 h-6 text-white" />
           </div>
           <span className="font-heading text-2xl font-bold tracking-tight uppercase">
-            Motive<span className="text-[#FF6A00]">Muscle</span>
+            Hulk<span className="text-[#FF6A00]">Gym</span>
           </span>
         </Link>
 
@@ -61,8 +61,8 @@ const Header = () => {
         </nav>
 
         <div className="hidden md:block">
-          <Button asChild className="bg-[#FF6A00] hover:bg-[#FF7F1F] text-white font-bold uppercase tracking-wider px-6 py-6 rounded-sm">
-            <Link to="/membership">Join Membership</Link>
+          <Button asChild className="bg-[#FF6A00] hover:bg-[#FF7F1F] text-white font-bold uppercase tracking-wider px-6 py-6 rounded-sm shadow-lg transition-all hover:scale-105">
+            <Link to="/contact">Join Membership Now</Link>
           </Button>
         </div>
 
@@ -87,7 +87,7 @@ const Header = () => {
             </Link>
           ))}
           <Button asChild className="w-full bg-[#FF6A00] hover:bg-[#FF7F1F] text-white font-bold uppercase tracking-wider py-8 rounded-sm text-lg">
-            <Link to="/membership" onClick={() => setIsMobileMenuOpen(false)}>Join Membership</Link>
+            <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)}>Join Membership Now</Link>
           </Button>
         </div>
       )}
