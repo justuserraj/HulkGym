@@ -17,7 +17,7 @@ const trainers = [
     name: "Sarah Jenkins",
     role: "CrossFit Trainer",
     bio: "Expert in high-intensity functional training, helping members reach peak performance.",
-    image: "https://images.unsplash.com/photo-1548690312-e3b507d17a4d?q=80&w=1974&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=1974&auto=format&fit=crop"
   },
   {
     name: "Marcus Thorne",
@@ -60,7 +60,7 @@ const Trainers = () => {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
-                  <a href="#" className="bg-[#FF6A00] p-3 rounded-full hover:bg-white hover:text-[#FF6A00] transition-colors shadow-lg"><Instagram className="w-5 h-5" /></a>
+                  <a href="https://www.instagram.com/hulkgymbgs" target="_blank" rel="noopener noreferrer" className="bg-[#FF6A00] p-3 rounded-full hover:bg-white hover:text-[#FF6A00] transition-colors shadow-lg"><Instagram className="w-5 h-5" /></a>
                   <a href="#" className="bg-[#FF6A00] p-3 rounded-full hover:bg-white hover:text-[#FF6A00] transition-colors shadow-lg"><Twitter className="w-5 h-5" /></a>
                   <a href="#" className="bg-[#FF6A00] p-3 rounded-full hover:bg-white hover:text-[#FF6A00] transition-colors shadow-lg"><Facebook className="w-5 h-5" /></a>
                 </div>

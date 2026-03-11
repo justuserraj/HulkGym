@@ -22,7 +22,7 @@ const Footer = () => {
             state-of-the-art equipment, and a supportive community.
           </p>
           <div className="flex items-center gap-4">
-            <a href="#" className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors"><Instagram className="w-5 h-5" /></a>
+            <a href="https://www.instagram.com/hulkgymbgs" target="_blank" rel="noopener noreferrer" className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors"><Instagram className="w-5 h-5" /></a>
             <a href="#" className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors"><Twitter className="w-5 h-5" /></a>
             <a href="#" className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors"><Facebook className="w-5 h-5" /></a>
             <a href="#" className="text-[#7A7A7A] hover:text-[#FF6A00] transition-colors"><Youtube className="w-5 h-5" /></a>
@@ -64,7 +64,7 @@ const Footer = () => {
             </li>
             <li className="flex items-center gap-4">
               <Mail className="w-5 h-5 text-[#FF6A00] shrink-0" />
-              <span className="text-[#7A7A7A] text-sm">info@hulkgym.com</span>
+              <span className="text-[#7A7A7A] text-sm">hulkgymbgs@gmail.com</span>
             </li>
           </ul>
         </div>

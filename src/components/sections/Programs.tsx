@@ -25,7 +25,7 @@ const programs = [
   {
     title: "Dance Fitness",
     description: "Energetic fitness sessions combining dance and cardio for a fun workout.",
-    image: "https://images.unsplash.com/photo-1518611012118-2961720eaa2e?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?q=80&w=2070&auto=format&fit=crop",
     icon: <Music className="w-6 h-6" />,
     path: "/contact"
   },
