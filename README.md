@@ -1,1 +1,1 @@
-# Welcome to your Vizox Studio app
+Devloped & Designed by Vizox Studio
